@@ -71,6 +71,18 @@ void Error_Handler(void);
 #define left_break_output_GPIO_Port GPIOB
 #define right_break_output_Pin GPIO_PIN_1
 #define right_break_output_GPIO_Port GPIOB
+#define Steering_Direction_2_Pin GPIO_PIN_3
+#define Steering_Direction_2_GPIO_Port GPIOB
+#define Steering_Pwm_Pin GPIO_PIN_4
+#define Steering_Pwm_GPIO_Port GPIOB
+#define Steering_Direction_1_Pin GPIO_PIN_5
+#define Steering_Direction_1_GPIO_Port GPIOB
+#define Encoder_A_Pin GPIO_PIN_8
+#define Encoder_A_GPIO_Port GPIOB
+#define Encoder_A_EXTI_IRQn EXTI9_5_IRQn
+#define Encoder_B_Pin GPIO_PIN_9
+#define Encoder_B_GPIO_Port GPIOB
+#define Encoder_B_EXTI_IRQn EXTI9_5_IRQn
 
 /* USER CODE BEGIN Private defines */
 
